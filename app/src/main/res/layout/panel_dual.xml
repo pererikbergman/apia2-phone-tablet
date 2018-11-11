@@ -1,0 +1,21 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="?android:dividerHorizontal"
+        android:showDividers="middle">
+
+    <FrameLayout
+            android:id="@+id/fragment_container_primary"
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+    />
+
+    <FrameLayout
+            android:id="@+id/fragment_container_secondary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    />
+
+</LinearLayout>
+
